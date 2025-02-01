@@ -2,6 +2,7 @@
   "name": "frosti-test",
   "type": "module",
   "version": "2.5.0",
+  "packageManager": "pnpm@7.30.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
