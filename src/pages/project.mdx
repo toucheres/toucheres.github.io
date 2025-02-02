@@ -11,6 +11,10 @@ import TimeLine from "../components/page/TimeLine.astro";
 import LinkCard from "../components/page/LinkCard.astro";
 import ProjectCard from "../components/ProjectCard.astro";
 import ProjectJS from "../components/ProjectJS.astro";
+import { handwrittenImage } from "../localsrc/images.ts";
+import { reSnakeImage } from "../localsrc/images.ts";
+import { FCNNImage } from "../localsrc/images.ts";
+import { DeskPetImage } from "../localsrc/images.ts";
 
 <BaseLayout title="Project">
   <BaseCard title="Project">
@@ -20,32 +24,34 @@ import ProjectJS from "../components/ProjectJS.astro";
 
   </BaseCard>
   <div class="mt-8 mb-8">
-    <ProjectCard
-      title="Frosti"
-      image="https://frosti.saroprock.com/view.png"
-      desc="一个干净、优美、快速的博客模板！"
-      url="https://github.com/EveSunMaple/Frosti"
+      <ProjectCard
+      title="Handwritten
+      CNNwithGUI"
+      image={ handwrittenImage }
+      desc="一个本地部署，无第三方包，支持本地学习的，具有图形化界面交互的，基于qt的手写数字识别"
+      url="https://github.com/toucheres/HandwrittenCNNwithGUI"
       target="_self"
     />
     <ProjectCard
-      title="Word-testing-application"
-      image="https://raw.githubusercontent.com/EveSunMaple/Word-testing-application/master/view.png"
-      desc="一个用Python和Tkinter制作的单词测试应用"
-      url="https://github.com/EveSunMaple/Word-testing-application"
+      title="reSnake"
+      image={ reSnakeImage }
+      desc="一个基于qt的贪吃蛇小游戏，目前还在持续完善中……"
+      url="https://github.com/toucheres/reSnake"
+      target="_self"
+    />
+
+    <ProjectCard
+      title="my_neural-networks"
+      image={ FCNNImage }
+      desc="纯手写神经网络库，不引入第三方包。目前实现了全连接神经网络，后续加入CNN等,正在尝试引入多核计算与CUDA加速"
+      url="https://github.com/toucheres/my_neural-networks"
       target="_self"
     />
     <ProjectCard
-      title="InfinitySky"
-      image="https://raw.githubusercontent.com/EveSunMaple/InfinitySky/master/view.png"
-      desc="一个ExtraEasy2D的示例项目"
-      url="https://github.com/EveSunMaple/InfinitySky"
-      target="_self"
-    />
-    <ProjectCard
-      title="code-judge"
-      image="https://raw.githubusercontent.com/EveSunMaple/code-judge/master/index.png"
-      desc="An elegant yet uncomplicated CPP judging system for informatics competitions."
-      url="https://github.com/EveSunMaple/code-judge"
+      title="DeskPet"
+      image={DeskPetImage}
+      desc="一个基于qt的桌面宠物。主要实现了一个qt的帧动画类，后续将完善GPU显示与逻辑"
+      url="https://github.com/toucheres/deskPet"
       target="_self"
     />
   </div>

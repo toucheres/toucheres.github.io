@@ -8,7 +8,7 @@ export const SITE_DESCRIPTION = "A blog template";
 export const DATE_FORMAT = "ddd MMM DD YYYY";
 
 // User profile information
-export const USER_NAME = "EveSunMaple";
+export const USER_NAME = "toucher";
 export const USER_AVATAR = "/profile.webp";
 
 // Server and transition settings
@@ -86,7 +86,7 @@ export const menuItems = [
   {
     id: "contact",
     text: "Contact",
-    href: "mailto:contact.evesunmaple@outlook.com", // Contact email
+    href: "mailto:761844639@qq.com", // Contact email
     target: "_blank", // Open in a new tab
     svg: "contact",
   },
@@ -94,30 +94,42 @@ export const menuItems = [
 
 // Social media and contact icons
 export const socialIcons = [
+  // {
+  //   href: "https://afdian.net/a/saroprock",
+  //   ariaLabel: "Support my work",
+  //   title: "Support my work",
+  //   svg: "support",
+  // },
   {
-    href: "https://afdian.net/a/saroprock",
-    ariaLabel: "Support my work",
-    title: "Support my work",
-    svg: "support",
-  },
-  {
-    href: "https://github.com/EveSunMaple",
+    href: "https://github.com/toucheres",
     ariaLabel: "Github",
     title: "Github",
     svg: "github",
   },
   {
-    href: "https://space.bilibili.com/438392347",
+    href: "https://space.bilibili.com/2076069361",
     ariaLabel: "BiliBili",
     title: "BiliBili",
     svg: "bilibili",
   },
   {
-    href: "/rss.xml",
-    ariaLabel: "RSS Feed",
-    title: "RSS Feed",
-    svg: "rss",
+    href: "https://qm.qq.com/q/QJh8wxWY2i",
+    ariaLabel: "QQ",
+    title: "QQ",
+    svg: "qq",
   },
+  {
+    href: "https://www.zhihu.com/people/toucheres",
+    ariaLabel: "ZhiHu",
+    title: "ZhiHu",
+    svg: "zhihu",
+  },
+  // {
+  //   href: "/rss.xml",
+  //   ariaLabel: "RSS Feed",
+  //   title: "RSS Feed",
+  //   svg: "rss",
+  // },
 ];
 // Category Information
 export const categoriesInfo = [
