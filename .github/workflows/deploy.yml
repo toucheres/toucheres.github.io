@@ -19,7 +19,6 @@ jobs:
       - name: Install, build, and upload your site
         uses: withastro/action@v3
         with:
-          version: '7.30.0'
           node-version: '18'  # 修改为 Node 18
           package-manager: 'pnpm@7.30.0'
   deploy:
